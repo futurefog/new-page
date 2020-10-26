@@ -26,13 +26,24 @@
 </head>
 
 <body>
-  <div class="app">
+<div class="app">
+  <div class="header">
+    <div></div>
+    <div></div>
+    <div class="like-button">
+      <button class="btn btn-primary btn-pill animate-left-3" type="button">
+        <span class="fas fa-heart"></span>
+        GitHub
+      </button>
+    </div>
+  </div>
+  <div class="main">
     <div class="logo">
-        <div class="text-center">
-          <div class="icon icon-shape shadow-soft border border-light rounded-circle">
-            <span class="far fa-thumbs-up"></span>
-          </div>
-          <h3 class="h5 my-3">Shell Search</h3>
+      <div class="text-center">
+        <div class="icon icon-shape shadow-soft border border-light rounded-circle">
+          <span class="far fa-thumbs-up"></span>
+        </div>
+        <h3 class="h2 my-3">Shell Search</h3>
       </div>
     </div>
     <div class="form-group main">
@@ -46,22 +57,32 @@
         </div>
       </div>
       <div class="search-button">
-        <button class="btn btn-primary btn-pill text-dark mr-2 mb-2 animate-down-2" type="button" id="search-button">Search</button>
+        <button class="btn btn-primary btn-pill text-dark mr-2 mb-2 animate-down-2" type="button" id="search-button">
+          Search
+        </button>
       </div>
     </div>
   </div>
+</div>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/js/fontawesome.min.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/js/fontawesome.min.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

@@ -268,8 +268,22 @@ textarea {
 .app {
   height: 100vh;
   display: grid;
-  justify-content: center;
+  /*justify-content: center;*/
+  /*align-content: center;*/
+}
+
+.main {
+  justify-self: center;
   align-content: center;
+}
+
+.header {
+  /*height: 10vh;*/
+  display: grid;
+  /*justify-self: end;*/
+  align-self: center;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-template-columns: 200px;*/
 }
 
 .search-button {
@@ -283,4 +297,13 @@ input:focus::placeholder {
 
 .logo {
   margin-bottom: 5rem;
+}
+
+.like-button {
+  justify-self: center;
+  align-self: start;
+}
+
+.fa-heart {
+  color: #cf1322;
 }
