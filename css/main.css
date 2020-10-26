@@ -280,3 +280,7 @@ textarea {
 input:focus::placeholder {
   color: transparent;
 }
+
+.logo {
+  margin-bottom: 5rem;
+}
