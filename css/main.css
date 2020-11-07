@@ -262,23 +262,28 @@ textarea {
 }
 
 .form-group {
+  justify-self: center;
+  align-self: start;
   width: 50rem;
 }
 
 .app {
   height: 100vh;
   display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0 0;
 }
 
 .main {
-  justify-self: center;
   align-self: start;
+  display: grid;
+  grid-area: 2 / 3 / 4 / 7;
 }
 
 .header {
   display: grid;
-  align-self: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-area: 1 / 1 / 2 / 9;
 }
 
 .search-button {
@@ -295,8 +300,9 @@ input:focus::placeholder {
 }
 
 .like-button {
+  grid-area: 1 / 6 / 2 / 9;
   justify-self: center;
-  align-self: start;
+  align-self: center;
 }
 
 .fa-heart {
