@@ -1,8 +1,13 @@
 {
-  "name": " ",
+  "name": "new-page",
   "version": "0.0.1",
   "description": "",
-  "keywords": "",
+  "keywords": [
+    "new page",
+    "new tab",
+    "search",
+    "neumorphism"
+  ],
   "license": "",
   "author": "",
   "scripts": {
